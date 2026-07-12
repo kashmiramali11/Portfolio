@@ -5,7 +5,7 @@ const EDUCATION = [
     degree: "PhD in Business Administration and Management",
     field: "Cyber Technology Management",
     institution: "Campbellsville University",
-    timeline: "May 2026 – May 2029",
+    timeline: "2026 – 2029",
     focus:
       "Behavioral and organizational factors in IAM governance and User Access Review compliance.",
     icon: "PHD",
