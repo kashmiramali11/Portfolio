@@ -115,14 +115,24 @@ export default function Nav() {
               {link.label}
             </button>
           ))}
+
           <a
+            href="/KashmiraMali.pdf"
+            download="KashmiraMali.pdf"
+            className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-md border border-[#06B6D4] text-[#06B6D4] text-sm font-medium hover:bg-[#06B6D4]/10 transition-all duration-300"
+            data-testid="link-download-cv"
+          >
+            <Download size={14} />
+            Download CV
+          </a>
+          {/* <a
             href="#"
             className="flex items-center gap-2 px-6 py-2.5 rounded-md border border-[#06B6D4] text-[#06B6D4] font-medium hover:bg-[#06B6D4]/10 transition-all"
             onClick={() => setMenuOpen(false)}
           >
             <Download size={16} />
             Download CV
-          </a>
+          </a> */}
         </div>
       </div>
     </>
