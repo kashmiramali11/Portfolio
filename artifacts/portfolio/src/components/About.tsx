@@ -90,7 +90,7 @@ export default function About() {
 
               {/* Tech accent badges */}
               <div className="flex flex-wrap gap-2 pt-2">
-                {["IAM", "Compliance", "User Access Reviews","SailPoint IIQ", "Okta", "SAML", "OAuth", "SOX", "HIPAA"].map((tag) => (
+                {["IAM", "Compliance", "User Access Reviews","SailPoint IIQ", "Okta", "SAML", "OAuth", "SOX", "HIPAA", "ISACA Journal Reviewer"].map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-xs font-mono rounded border border-[#06B6D4]/30 text-[#06B6D4] bg-[#06B6D4]/5"
