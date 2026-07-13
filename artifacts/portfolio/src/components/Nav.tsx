@@ -80,7 +80,7 @@ export default function Nav() {
               )}
 
             <a
-                href="/KashmiraMali.pdf"
+                href="/Portfolio/KashmiraMali.pdf"
                 download="KashmiraMali.pdf"
                 className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-md border border-[#06B6D4] text-[#06B6D4] text-sm font-medium hover:bg-[#06B6D4]/10 transition-all duration-300"
                 data-testid="link-download-cv"
@@ -126,7 +126,7 @@ export default function Nav() {
             </button>
           ))}
           <a
-              href="/KashmiraMali.pdf"
+              href="/Portfolio/KashmiraMali.pdf"
               download="KashmiraMali_Resume.pdf"
               className="flex items-center gap-2 px-6 py-2.5 rounded-md border border-[#06B6D4] text-[#06B6D4] font-medium hover:bg-[#06B6D4]/10 transition-all"
               onClick={() => setMenuOpen(false)}
