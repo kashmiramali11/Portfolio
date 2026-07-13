@@ -144,12 +144,12 @@ export default function Hero() {
         </div>
 
         {/* Main headline */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-          Securing Enterprise Identity.{" "}
-          <span className="text-[#06B6D4] cyber-glow">
-            Pioneering Cyber Governance Research.
-          </span>
-        </h1>
+       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+          Kashmira Mali
+      </h1>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#06B6D4] cyber-glow mb-6">
+          Securing Enterprise Identity. Pioneering Cyber Governance Research.
+      </h2>
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
