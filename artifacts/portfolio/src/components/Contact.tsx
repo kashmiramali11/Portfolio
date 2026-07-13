@@ -38,9 +38,11 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-10 items-start">
             {/* Contact info */}
             <div className="space-y-6">
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-lg bg-[#06B6D4]/10 border border-[#06B6D4]/20 flex items-center justify-center flex-shrink-0">
-                  <MapPin size={16} className="text-[#06B6D4]" />
+              {/* <div className="flex items-center gap-4"> */}
+              <div className="flex justify-center">
+                {/* <div className="w-10 h-10 rounded-lg bg-[#06B6D4]/10 border border-[#06B6D4]/20 flex items-center justify-center flex-shrink-0"> */}
+                <div className="space-y-6 max-w-lg w-full">  
+                <MapPin size={16} className="text-[#06B6D4]" />
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 uppercase tracking-wide font-mono">
