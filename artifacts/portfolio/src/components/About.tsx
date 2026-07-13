@@ -68,15 +68,14 @@ export default function About() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10">
-            Identity Architect &amp; Governance Researcher
+            Identity and Access Management Analyst &amp; Researcher
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Bio text */}
             <div className="space-y-5 text-slate-300 leading-relaxed text-base">
               <p>
-                I am an Identity and Access Management (IAM) Specialist, Technical
-                Analyst, and PhD Candidate in Cyber Technology Management. Backed by a
+                I am an Identity and Access Management (IAM) Analyst and PhD Candidate in Cyber Technology Management. Backed by a
                 Master's and Bachelor's degree in Computer Science, my career focuses
                 on managing complex identity lifecycles, mitigation of over-privileged
                 access risks, and implementing ironclad security controls.
@@ -91,7 +90,7 @@ export default function About() {
 
               {/* Tech accent badges */}
               <div className="flex flex-wrap gap-2 pt-2">
-                {["SailPoint IIQ", "Okta", "SAML", "OAuth", "SOX", "HIPAA"].map((tag) => (
+                {["IAM", "Compliance", "User Access Reviews","SailPoint IIQ", "Okta", "SAML", "OAuth", "SOX", "HIPAA"].map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-xs font-mono rounded border border-[#06B6D4]/30 text-[#06B6D4] bg-[#06B6D4]/5"
