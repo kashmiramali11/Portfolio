@@ -109,7 +109,7 @@ export default function Contact() {
 
             {/* Glassmorphic contact form */}
             {/* Replace YOUR_ENDPOINT_HERE with your free Formspree token from formspree.io after deploying to GitHub Pages */}
-            <form
+            {/* <form
               action="https://formspree.io/f/YOUR_ENDPOINT_HERE"
               method="POST"
               onSubmit={handleSubmit}
@@ -193,7 +193,7 @@ export default function Contact() {
                   </button>
                 </>
               )}
-            </form>
+            </form> */}
           </div>
 
           {/* Footer */}
