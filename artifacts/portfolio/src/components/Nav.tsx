@@ -78,14 +78,24 @@ export default function Nav() {
                   {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
                 </button>
               )}
-              <a
+
+            <a
+                href="/KashmiraMali.pdf"
+                download="KashmiraMali.pdf"
+                className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-md border border-[#06B6D4] text-[#06B6D4] text-sm font-medium hover:bg-[#06B6D4]/10 transition-all duration-300"
+                data-testid="link-download-cv"
+          >
+                <Download size={14} />
+                Download CV
+            </a>
+              {/* <a
                 href="#"
                 className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-md border border-[#06B6D4] text-[#06B6D4] text-sm font-medium hover:bg-[#06B6D4]/10 transition-all duration-300"
                 data-testid="link-download-cv"
               >
                 <Download size={14} />
                 Download CV
-              </a>
+              </a> */}
               {/* Mobile hamburger */}
               <button
                 className="md:hidden p-2 text-slate-300 hover:text-[#06B6D4] transition-colors"
@@ -115,16 +125,16 @@ export default function Nav() {
               {link.label}
             </button>
           ))}
-
           <a
-            href="/KashmiraMali.pdf"
-            download="KashmiraMali.pdf"
-            className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-md border border-[#06B6D4] text-[#06B6D4] text-sm font-medium hover:bg-[#06B6D4]/10 transition-all duration-300"
-            data-testid="link-download-cv"
+              href="/KashmiraMali.pdf"
+              download="KashmiraMali_Resume.pdf"
+              className="flex items-center gap-2 px-6 py-2.5 rounded-md border border-[#06B6D4] text-[#06B6D4] font-medium hover:bg-[#06B6D4]/10 transition-all"
+              onClick={() => setMenuOpen(false)}
           >
-            <Download size={14} />
-            Download CV
-          </a>
+              <Download size={16} />
+              Download CV
+        </a>
+
           {/* <a
             href="#"
             className="flex items-center gap-2 px-6 py-2.5 rounded-md border border-[#06B6D4] text-[#06B6D4] font-medium hover:bg-[#06B6D4]/10 transition-all"
