@@ -205,7 +205,7 @@ export default function Contact() {
           <div className="mt-16 pt-8 border-t border-slate-700/50 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
             <p>© 2024 Kashmira Mali. All rights reserved.</p>
             <p className="font-mono text-xs text-slate-600">
-              IAM Specialist • PhD Researcher • Cyber Governance
+              ISACA Journal Reviewer • IAM Specialist • PhD Researcher • Cyber Governance
             </p>
           </div>
         </div>
