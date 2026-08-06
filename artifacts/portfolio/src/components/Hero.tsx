@@ -153,9 +153,7 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-          PhD Researcher and Identity &amp; Access Management (IAM) Specialist bridging
-          the gap between enterprise security infrastructure, behavioral governance,
-          and strict regulatory compliance.
+           PhD Researcher and Identity &amp; Access Management (IAM) Specialist, Elsevier Certified Peer Reviewer, and ISACA Journal Reviewer bridging the gap between enterprise security infrastructure, behavioral governance, and strict regulatory compliance.
         </p>
 
         {/* CTAs */}
