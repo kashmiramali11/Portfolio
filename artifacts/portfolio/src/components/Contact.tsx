@@ -48,7 +48,7 @@ export default function Contact() {
                   <p className="text-xs text-slate-500 uppercase tracking-wide font-mono">
                     Location
                   </p>
-                  <p className="text-white font-medium">Binghamton, NY</p>
+                  <p className="text-white font-medium">Albany, NY</p>
                 </div>
               </div>
 
@@ -89,10 +89,11 @@ export default function Contact() {
               {/* IAM credential badge */}
               <div className="mt-4 p-4 rounded-xl border border-[#06B6D4]/20 bg-[#0F172A]">
                 <p className="text-xs font-mono text-[#06B6D4] uppercase tracking-wide mb-2">
-                  Active Clearances
+                  Active Certifications
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {[
+                    "Elsevier Certified Peer Reviewer",
                     "SailPoint Certified",
                     "CyberArk Trustee",
                     "HIPAA Compliant",
@@ -205,7 +206,7 @@ export default function Contact() {
           <div className="mt-16 pt-8 border-t border-slate-700/50 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
             <p>© 2024 Kashmira Mali. All rights reserved.</p>
             <p className="font-mono text-xs text-slate-600">
-              ISACA Journal Reviewer • IAM Specialist • PhD Researcher • Cyber Governance
+              Elsevier Certified Peer Reviewer • ISACA Journal Reviewer • IAM Specialist • PhD Researcher • Cyber Governance
             </p>
           </div>
         </div>
